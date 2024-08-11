@@ -1,0 +1,463 @@
+[kbplacer_plugin_action.py:63]: Plugin version: 0.11
+[kbplacer_plugin_action.py:64]: Python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+[kbplacer_plugin_action.py:65]: KiCad version: 8.0.4 with 4.2.2a1 osx-cocoa (phoenix) wxWidgets 3.2.5
+[kbplacer_dialog.py:585]: Language: en
+[kbplacer_plugin_action.py:76]: GUI state: {"layout_path": "/Users/zhang/Downloads/keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "MW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 180.0, "side": "Back"}, "template_path": ""}, "enable_diode_placement": false, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "additional_elements": [{"annotation_format": "D{}", "position_option": "Custom", "position": {"x": 0.0, "y": 5.0, "orientation": 180.0, "side": "Back"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:310]: Set key 1U distance: 19050000/19050000
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:112]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix
+[key_placer.py:117]: Switches by nets: defaultdict(<class 'list'>, {})
+[key_placer.py:121]: Diodes by switch: {'MW64': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW63': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW62': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW61': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW60': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW59': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW58': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW57': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW56': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW55': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW54': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW53': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW52': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW51': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW50': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW49': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW48': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW47': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW46': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW45': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW44': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW43': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW42': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW41': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW40': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW39': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW38': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW37': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW36': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW35': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW34': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW33': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW32': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW31': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW30': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW29': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW28': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW27': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW26': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW25': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW24': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW23': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW22': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW21': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW20': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW19': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW18': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW17': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW16': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW15': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW14': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW13': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW12': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW11': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW10': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW9': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW8': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW7': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW6': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW5': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW4': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW3': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW2': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1'], 'MW1': ['D64', 'D63', 'D62', 'D61', 'D60', 'D59', 'D58', 'D57', 'D56', 'D55', 'D54', 'D53', 'D52', 'D51', 'D50', 'D49', 'D48', 'D47', 'D46', 'D45', 'D44', 'D43', 'D42', 'D41', 'D40', 'D39', 'D38', 'D37', 'D36', 'D35', 'D34', 'D33', 'D32', 'D31', 'D30', 'D29', 'D28', 'D27', 'D26', 'D25', 'D24', 'D23', 'D22', 'D21', 'D20', 'D19', 'D18', 'D17', 'D16', 'D15', 'D14', 'D13', 'D12', 'D11', 'D10', 'D9', 'D8', 'D7', 'D6', 'D5', 'D4', 'D3', 'D2', 'D1']}
+[board_modifier.py:63]: Searching for MW1 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[key_placer.py:506]: Looking for connection template between MW1 and other elements
+[board_modifier.py:97]: Getting MW1 footprint position: (38100000, 38100000)
+[key_placer.py:550]: Got connection template: 
+[kle_serial.py:885]: User layout: [['~\n`', '!\n1', '@\n2', '#\n3', '$\n4', '%\n5', '^\n6', '&\n7', '*\n8', '(\n9', ')\n0', '_\n-', '+\n=', {'w': 2}, 'Backspace'], [{'w': 1.5}, 'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{\n[', '}\n]', {'w': 1.5}, '|\n\\'], [{'w': 1.75}, 'Caps Lock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':\n;', '"\n\'', {'w': 2.25}, 'Enter'], [{'w': 2}, 'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n,', '>\n.', '?\n/', 'Shift', {'a': 7}, '', {'a': 4}, '.Del'], [{'w': 1.25}, 'Ctrl', {'w': 1.25}, 'Win', {'w': 1.25}, 'Alt', {'a': 7, 'w': 6.25}, '', {'a': 4}, 'Alt', 'Fn', {'a': 7}, '', '', '']]
+[key_placer.py:610]: Layout offset: (28575000, 28575000)
+[board_modifier.py:84]: Setting MW1 footprint position: (38100000, 38100000)
+[board_modifier.py:84]: Setting MW2 footprint position: (57150000, 38100000)
+[board_modifier.py:84]: Setting MW3 footprint position: (76200000, 38100000)
+[board_modifier.py:84]: Setting MW4 footprint position: (95250000, 38100000)
+[board_modifier.py:84]: Setting MW5 footprint position: (114300000, 38100000)
+[board_modifier.py:84]: Setting MW6 footprint position: (133350000, 38100000)
+[board_modifier.py:84]: Setting MW7 footprint position: (152400000, 38100000)
+[board_modifier.py:84]: Setting MW8 footprint position: (171450000, 38100000)
+[board_modifier.py:84]: Setting MW9 footprint position: (190500000, 38100000)
+[board_modifier.py:84]: Setting MW10 footprint position: (209550000, 38100000)
+[board_modifier.py:84]: Setting MW11 footprint position: (228600000, 38100000)
+[board_modifier.py:84]: Setting MW12 footprint position: (247650000, 38100000)
+[board_modifier.py:84]: Setting MW13 footprint position: (266700000, 38100000)
+[board_modifier.py:84]: Setting MW14 footprint position: (295275000, 38100000)
+[board_modifier.py:84]: Setting MW15 footprint position: (42862500, 57150000)
+[board_modifier.py:84]: Setting MW16 footprint position: (66675000, 57150000)
+[board_modifier.py:84]: Setting MW17 footprint position: (85725000, 57150000)
+[board_modifier.py:84]: Setting MW18 footprint position: (104775000, 57150000)
+[board_modifier.py:84]: Setting MW19 footprint position: (123825000, 57150000)
+[board_modifier.py:84]: Setting MW20 footprint position: (142875000, 57150000)
+[board_modifier.py:84]: Setting MW21 footprint position: (161925000, 57150000)
+[board_modifier.py:84]: Setting MW22 footprint position: (180975000, 57150000)
+[board_modifier.py:84]: Setting MW23 footprint position: (200025000, 57150000)
+[board_modifier.py:84]: Setting MW24 footprint position: (219075000, 57150000)
+[board_modifier.py:84]: Setting MW25 footprint position: (238125000, 57150000)
+[board_modifier.py:84]: Setting MW26 footprint position: (257175000, 57150000)
+[board_modifier.py:84]: Setting MW27 footprint position: (276225000, 57150000)
+[board_modifier.py:84]: Setting MW28 footprint position: (300037500, 57150000)
+[board_modifier.py:84]: Setting MW29 footprint position: (45243750, 76200000)
+[board_modifier.py:84]: Setting MW30 footprint position: (71437500, 76200000)
+[board_modifier.py:84]: Setting MW31 footprint position: (90487500, 76200000)
+[board_modifier.py:84]: Setting MW32 footprint position: (109537500, 76200000)
+[board_modifier.py:84]: Setting MW33 footprint position: (128587500, 76200000)
+[board_modifier.py:84]: Setting MW34 footprint position: (147637500, 76200000)
+[board_modifier.py:84]: Setting MW35 footprint position: (166687500, 76200000)
+[board_modifier.py:84]: Setting MW36 footprint position: (185737500, 76200000)
+[board_modifier.py:84]: Setting MW37 footprint position: (204787500, 76200000)
+[board_modifier.py:84]: Setting MW38 footprint position: (223837500, 76200000)
+[board_modifier.py:84]: Setting MW39 footprint position: (242887500, 76200000)
+[board_modifier.py:84]: Setting MW40 footprint position: (261937500, 76200000)
+[board_modifier.py:84]: Setting MW41 footprint position: (292893750, 76200000)
+[board_modifier.py:84]: Setting MW42 footprint position: (47625000, 95250000)
+[board_modifier.py:84]: Setting MW43 footprint position: (76200000, 95250000)
+[board_modifier.py:84]: Setting MW44 footprint position: (95250000, 95250000)
+[board_modifier.py:84]: Setting MW45 footprint position: (114300000, 95250000)
+[board_modifier.py:84]: Setting MW46 footprint position: (133350000, 95250000)
+[board_modifier.py:84]: Setting MW47 footprint position: (152400000, 95250000)
+[board_modifier.py:84]: Setting MW48 footprint position: (171450000, 95250000)
+[board_modifier.py:84]: Setting MW49 footprint position: (190500000, 95250000)
+[board_modifier.py:84]: Setting MW50 footprint position: (209550000, 95250000)
+[board_modifier.py:84]: Setting MW51 footprint position: (228600000, 95250000)
+[board_modifier.py:84]: Setting MW52 footprint position: (247650000, 95250000)
+[board_modifier.py:84]: Setting MW53 footprint position: (266700000, 95250000)
+[board_modifier.py:84]: Setting MW54 footprint position: (285750000, 95250000)
+[board_modifier.py:84]: Setting MW55 footprint position: (304800000, 95250000)
+[board_modifier.py:84]: Setting MW56 footprint position: (40481250, 114300000)
+[board_modifier.py:84]: Setting MW57 footprint position: (64293750, 114300000)
+[board_modifier.py:84]: Setting MW58 footprint position: (88106250, 114300000)
+[board_modifier.py:84]: Setting MW59 footprint position: (159543750, 114300000)
+[board_modifier.py:84]: Setting MW60 footprint position: (228600000, 114300000)
+[board_modifier.py:84]: Setting MW61 footprint position: (247650000, 114300000)
+[board_modifier.py:84]: Setting MW62 footprint position: (266700000, 114300000)
+[board_modifier.py:84]: Setting MW63 footprint position: (285750000, 114300000)
+[board_modifier.py:84]: Setting MW64 footprint position: (304800000, 114300000)
+[key_placer.py:955]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.UNCHANGED: 'Unchanged'>, position=ElementPosition(x=0.0, y=0.0, orientation=0.0, side=<Side.FRONT: 'Front'>), template_path='')]
+[key_placer.py:723]: Placing additional elements for MW64
+[board_modifier.py:97]: Getting MW64 footprint position: (304800000, 114300000)
+[board_modifier.py:74]: Searching for optional D64 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D64 footprint position: (304800000, 109300000)
+[board_modifier.py:97]: Getting D64 footprint position: (304800000, 109300000)
+[key_placer.py:723]: Placing additional elements for MW63
+[board_modifier.py:97]: Getting MW63 footprint position: (285750000, 114300000)
+[board_modifier.py:74]: Searching for optional D63 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D63 footprint position: (285750000, 109300000)
+[board_modifier.py:97]: Getting D63 footprint position: (285750000, 109300000)
+[key_placer.py:723]: Placing additional elements for MW62
+[board_modifier.py:97]: Getting MW62 footprint position: (266700000, 114300000)
+[board_modifier.py:74]: Searching for optional D62 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D62 footprint position: (266700000, 109300000)
+[board_modifier.py:97]: Getting D62 footprint position: (266700000, 109300000)
+[key_placer.py:723]: Placing additional elements for MW61
+[board_modifier.py:97]: Getting MW61 footprint position: (247650000, 114300000)
+[board_modifier.py:74]: Searching for optional D61 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D61 footprint position: (247650000, 109300000)
+[board_modifier.py:97]: Getting D61 footprint position: (247650000, 109300000)
+[key_placer.py:723]: Placing additional elements for MW60
+[board_modifier.py:97]: Getting MW60 footprint position: (228600000, 114300000)
+[board_modifier.py:74]: Searching for optional D60 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D60 footprint position: (228600000, 109300000)
+[board_modifier.py:97]: Getting D60 footprint position: (228600000, 109300000)
+[key_placer.py:723]: Placing additional elements for MW59
+[board_modifier.py:97]: Getting MW59 footprint position: (159543750, 114300000)
+[board_modifier.py:74]: Searching for optional D59 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D59 footprint position: (159543750, 109300000)
+[board_modifier.py:97]: Getting D59 footprint position: (159543750, 109300000)
+[key_placer.py:723]: Placing additional elements for MW58
+[board_modifier.py:97]: Getting MW58 footprint position: (88106250, 114300000)
+[board_modifier.py:74]: Searching for optional D58 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D58 footprint position: (88106250, 109300000)
+[board_modifier.py:97]: Getting D58 footprint position: (88106250, 109300000)
+[key_placer.py:723]: Placing additional elements for MW57
+[board_modifier.py:97]: Getting MW57 footprint position: (64293750, 114300000)
+[board_modifier.py:74]: Searching for optional D57 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D57 footprint position: (64293750, 109300000)
+[board_modifier.py:97]: Getting D57 footprint position: (64293750, 109300000)
+[key_placer.py:723]: Placing additional elements for MW56
+[board_modifier.py:97]: Getting MW56 footprint position: (40481250, 114300000)
+[board_modifier.py:74]: Searching for optional D56 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D56 footprint position: (40481250, 109300000)
+[board_modifier.py:97]: Getting D56 footprint position: (40481250, 109300000)
+[key_placer.py:723]: Placing additional elements for MW55
+[board_modifier.py:97]: Getting MW55 footprint position: (304800000, 95250000)
+[board_modifier.py:74]: Searching for optional D55 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D55 footprint position: (304800000, 90250000)
+[board_modifier.py:97]: Getting D55 footprint position: (304800000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW54
+[board_modifier.py:97]: Getting MW54 footprint position: (285750000, 95250000)
+[board_modifier.py:74]: Searching for optional D54 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D54 footprint position: (285750000, 90250000)
+[board_modifier.py:97]: Getting D54 footprint position: (285750000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW53
+[board_modifier.py:97]: Getting MW53 footprint position: (266700000, 95250000)
+[board_modifier.py:74]: Searching for optional D53 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D53 footprint position: (266700000, 90250000)
+[board_modifier.py:97]: Getting D53 footprint position: (266700000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW52
+[board_modifier.py:97]: Getting MW52 footprint position: (247650000, 95250000)
+[board_modifier.py:74]: Searching for optional D52 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D52 footprint position: (247650000, 90250000)
+[board_modifier.py:97]: Getting D52 footprint position: (247650000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW51
+[board_modifier.py:97]: Getting MW51 footprint position: (228600000, 95250000)
+[board_modifier.py:74]: Searching for optional D51 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D51 footprint position: (228600000, 90250000)
+[board_modifier.py:97]: Getting D51 footprint position: (228600000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW50
+[board_modifier.py:97]: Getting MW50 footprint position: (209550000, 95250000)
+[board_modifier.py:74]: Searching for optional D50 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D50 footprint position: (209550000, 90250000)
+[board_modifier.py:97]: Getting D50 footprint position: (209550000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW49
+[board_modifier.py:97]: Getting MW49 footprint position: (190500000, 95250000)
+[board_modifier.py:74]: Searching for optional D49 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D49 footprint position: (190500000, 90250000)
+[board_modifier.py:97]: Getting D49 footprint position: (190500000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW48
+[board_modifier.py:97]: Getting MW48 footprint position: (171450000, 95250000)
+[board_modifier.py:74]: Searching for optional D48 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D48 footprint position: (171450000, 90250000)
+[board_modifier.py:97]: Getting D48 footprint position: (171450000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW47
+[board_modifier.py:97]: Getting MW47 footprint position: (152400000, 95250000)
+[board_modifier.py:74]: Searching for optional D47 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D47 footprint position: (152400000, 90250000)
+[board_modifier.py:97]: Getting D47 footprint position: (152400000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW46
+[board_modifier.py:97]: Getting MW46 footprint position: (133350000, 95250000)
+[board_modifier.py:74]: Searching for optional D46 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D46 footprint position: (133350000, 90250000)
+[board_modifier.py:97]: Getting D46 footprint position: (133350000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW45
+[board_modifier.py:97]: Getting MW45 footprint position: (114300000, 95250000)
+[board_modifier.py:74]: Searching for optional D45 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D45 footprint position: (114300000, 90250000)
+[board_modifier.py:97]: Getting D45 footprint position: (114300000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW44
+[board_modifier.py:97]: Getting MW44 footprint position: (95250000, 95250000)
+[board_modifier.py:74]: Searching for optional D44 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D44 footprint position: (95250000, 90250000)
+[board_modifier.py:97]: Getting D44 footprint position: (95250000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW43
+[board_modifier.py:97]: Getting MW43 footprint position: (76200000, 95250000)
+[board_modifier.py:74]: Searching for optional D43 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D43 footprint position: (76200000, 90250000)
+[board_modifier.py:97]: Getting D43 footprint position: (76200000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW42
+[board_modifier.py:97]: Getting MW42 footprint position: (47625000, 95250000)
+[board_modifier.py:74]: Searching for optional D42 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D42 footprint position: (47625000, 90250000)
+[board_modifier.py:97]: Getting D42 footprint position: (47625000, 90250000)
+[key_placer.py:723]: Placing additional elements for MW41
+[board_modifier.py:97]: Getting MW41 footprint position: (292893750, 76200000)
+[board_modifier.py:74]: Searching for optional D41 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D41 footprint position: (292893750, 71200000)
+[board_modifier.py:97]: Getting D41 footprint position: (292893750, 71200000)
+[key_placer.py:723]: Placing additional elements for MW40
+[board_modifier.py:97]: Getting MW40 footprint position: (261937500, 76200000)
+[board_modifier.py:74]: Searching for optional D40 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D40 footprint position: (261937500, 71200000)
+[board_modifier.py:97]: Getting D40 footprint position: (261937500, 71200000)
+[key_placer.py:723]: Placing additional elements for MW39
+[board_modifier.py:97]: Getting MW39 footprint position: (242887500, 76200000)
+[board_modifier.py:74]: Searching for optional D39 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D39 footprint position: (242887500, 71200000)
+[board_modifier.py:97]: Getting D39 footprint position: (242887500, 71200000)
+[key_placer.py:723]: Placing additional elements for MW38
+[board_modifier.py:97]: Getting MW38 footprint position: (223837500, 76200000)
+[board_modifier.py:74]: Searching for optional D38 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D38 footprint position: (223837500, 71200000)
+[board_modifier.py:97]: Getting D38 footprint position: (223837500, 71200000)
+[key_placer.py:723]: Placing additional elements for MW37
+[board_modifier.py:97]: Getting MW37 footprint position: (204787500, 76200000)
+[board_modifier.py:74]: Searching for optional D37 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D37 footprint position: (204787500, 71200000)
+[board_modifier.py:97]: Getting D37 footprint position: (204787500, 71200000)
+[key_placer.py:723]: Placing additional elements for MW36
+[board_modifier.py:97]: Getting MW36 footprint position: (185737500, 76200000)
+[board_modifier.py:74]: Searching for optional D36 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D36 footprint position: (185737500, 71200000)
+[board_modifier.py:97]: Getting D36 footprint position: (185737500, 71200000)
+[key_placer.py:723]: Placing additional elements for MW35
+[board_modifier.py:97]: Getting MW35 footprint position: (166687500, 76200000)
+[board_modifier.py:74]: Searching for optional D35 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D35 footprint position: (166687500, 71200000)
+[board_modifier.py:97]: Getting D35 footprint position: (166687500, 71200000)
+[key_placer.py:723]: Placing additional elements for MW34
+[board_modifier.py:97]: Getting MW34 footprint position: (147637500, 76200000)
+[board_modifier.py:74]: Searching for optional D34 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D34 footprint position: (147637500, 71200000)
+[board_modifier.py:97]: Getting D34 footprint position: (147637500, 71200000)
+[key_placer.py:723]: Placing additional elements for MW33
+[board_modifier.py:97]: Getting MW33 footprint position: (128587500, 76200000)
+[board_modifier.py:74]: Searching for optional D33 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D33 footprint position: (128587500, 71200000)
+[board_modifier.py:97]: Getting D33 footprint position: (128587500, 71200000)
+[key_placer.py:723]: Placing additional elements for MW32
+[board_modifier.py:97]: Getting MW32 footprint position: (109537500, 76200000)
+[board_modifier.py:74]: Searching for optional D32 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D32 footprint position: (109537500, 71200000)
+[board_modifier.py:97]: Getting D32 footprint position: (109537500, 71200000)
+[key_placer.py:723]: Placing additional elements for MW31
+[board_modifier.py:97]: Getting MW31 footprint position: (90487500, 76200000)
+[board_modifier.py:74]: Searching for optional D31 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D31 footprint position: (90487500, 71200000)
+[board_modifier.py:97]: Getting D31 footprint position: (90487500, 71200000)
+[key_placer.py:723]: Placing additional elements for MW30
+[board_modifier.py:97]: Getting MW30 footprint position: (71437500, 76200000)
+[board_modifier.py:74]: Searching for optional D30 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D30 footprint position: (71437500, 71200000)
+[board_modifier.py:97]: Getting D30 footprint position: (71437500, 71200000)
+[key_placer.py:723]: Placing additional elements for MW29
+[board_modifier.py:97]: Getting MW29 footprint position: (45243750, 76200000)
+[board_modifier.py:74]: Searching for optional D29 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D29 footprint position: (45243750, 71200000)
+[board_modifier.py:97]: Getting D29 footprint position: (45243750, 71200000)
+[key_placer.py:723]: Placing additional elements for MW28
+[board_modifier.py:97]: Getting MW28 footprint position: (300037500, 57150000)
+[board_modifier.py:74]: Searching for optional D28 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D28 footprint position: (300037500, 52150000)
+[board_modifier.py:97]: Getting D28 footprint position: (300037500, 52150000)
+[key_placer.py:723]: Placing additional elements for MW27
+[board_modifier.py:97]: Getting MW27 footprint position: (276225000, 57150000)
+[board_modifier.py:74]: Searching for optional D27 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D27 footprint position: (276225000, 52150000)
+[board_modifier.py:97]: Getting D27 footprint position: (276225000, 52150000)
+[key_placer.py:723]: Placing additional elements for MW26
+[board_modifier.py:97]: Getting MW26 footprint position: (257175000, 57150000)
+[board_modifier.py:74]: Searching for optional D26 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D26 footprint position: (257175000, 52150000)
+[board_modifier.py:97]: Getting D26 footprint position: (257175000, 52150000)
+[key_placer.py:723]: Placing additional elements for MW25
+[board_modifier.py:97]: Getting MW25 footprint position: (238125000, 57150000)
+[board_modifier.py:74]: Searching for optional D25 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D25 footprint position: (238125000, 52150000)
+[board_modifier.py:97]: Getting D25 footprint position: (238125000, 52150000)
+[key_placer.py:723]: Placing additional elements for MW24
+[board_modifier.py:97]: Getting MW24 footprint position: (219075000, 57150000)
+[board_modifier.py:74]: Searching for optional D24 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D24 footprint position: (219075000, 52150000)
+[board_modifier.py:97]: Getting D24 footprint position: (219075000, 52150000)
+[key_placer.py:723]: Placing additional elements for MW23
+[board_modifier.py:97]: Getting MW23 footprint position: (200025000, 57150000)
+[board_modifier.py:74]: Searching for optional D23 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D23 footprint position: (200025000, 52150000)
+[board_modifier.py:97]: Getting D23 footprint position: (200025000, 52150000)
+[key_placer.py:723]: Placing additional elements for MW22
+[board_modifier.py:97]: Getting MW22 footprint position: (180975000, 57150000)
+[board_modifier.py:74]: Searching for optional D22 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D22 footprint position: (180975000, 52150000)
+[board_modifier.py:97]: Getting D22 footprint position: (180975000, 52150000)
+[key_placer.py:723]: Placing additional elements for MW21
+[board_modifier.py:97]: Getting MW21 footprint position: (161925000, 57150000)
+[board_modifier.py:74]: Searching for optional D21 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D21 footprint position: (161925000, 52150000)
+[board_modifier.py:97]: Getting D21 footprint position: (161925000, 52150000)
+[key_placer.py:723]: Placing additional elements for MW20
+[board_modifier.py:97]: Getting MW20 footprint position: (142875000, 57150000)
+[board_modifier.py:74]: Searching for optional D20 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D20 footprint position: (142875000, 52150000)
+[board_modifier.py:97]: Getting D20 footprint position: (142875000, 52150000)
+[key_placer.py:723]: Placing additional elements for MW19
+[board_modifier.py:97]: Getting MW19 footprint position: (123825000, 57150000)
+[board_modifier.py:74]: Searching for optional D19 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D19 footprint position: (123825000, 52150000)
+[board_modifier.py:97]: Getting D19 footprint position: (123825000, 52150000)
+[key_placer.py:723]: Placing additional elements for MW18
+[board_modifier.py:97]: Getting MW18 footprint position: (104775000, 57150000)
+[board_modifier.py:74]: Searching for optional D18 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D18 footprint position: (104775000, 52150000)
+[board_modifier.py:97]: Getting D18 footprint position: (104775000, 52150000)
+[key_placer.py:723]: Placing additional elements for MW17
+[board_modifier.py:97]: Getting MW17 footprint position: (85725000, 57150000)
+[board_modifier.py:74]: Searching for optional D17 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D17 footprint position: (85725000, 52150000)
+[board_modifier.py:97]: Getting D17 footprint position: (85725000, 52150000)
+[key_placer.py:723]: Placing additional elements for MW16
+[board_modifier.py:97]: Getting MW16 footprint position: (66675000, 57150000)
+[board_modifier.py:74]: Searching for optional D16 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D16 footprint position: (66675000, 52150000)
+[board_modifier.py:97]: Getting D16 footprint position: (66675000, 52150000)
+[key_placer.py:723]: Placing additional elements for MW15
+[board_modifier.py:97]: Getting MW15 footprint position: (42862500, 57150000)
+[board_modifier.py:74]: Searching for optional D15 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D15 footprint position: (42862500, 52150000)
+[board_modifier.py:97]: Getting D15 footprint position: (42862500, 52150000)
+[key_placer.py:723]: Placing additional elements for MW14
+[board_modifier.py:97]: Getting MW14 footprint position: (295275000, 38100000)
+[board_modifier.py:74]: Searching for optional D14 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D14 footprint position: (295275000, 33100000)
+[board_modifier.py:97]: Getting D14 footprint position: (295275000, 33100000)
+[key_placer.py:723]: Placing additional elements for MW13
+[board_modifier.py:97]: Getting MW13 footprint position: (266700000, 38100000)
+[board_modifier.py:74]: Searching for optional D13 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D13 footprint position: (266700000, 33100000)
+[board_modifier.py:97]: Getting D13 footprint position: (266700000, 33100000)
+[key_placer.py:723]: Placing additional elements for MW12
+[board_modifier.py:97]: Getting MW12 footprint position: (247650000, 38100000)
+[board_modifier.py:74]: Searching for optional D12 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D12 footprint position: (247650000, 33100000)
+[board_modifier.py:97]: Getting D12 footprint position: (247650000, 33100000)
+[key_placer.py:723]: Placing additional elements for MW11
+[board_modifier.py:97]: Getting MW11 footprint position: (228600000, 38100000)
+[board_modifier.py:74]: Searching for optional D11 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D11 footprint position: (228600000, 33100000)
+[board_modifier.py:97]: Getting D11 footprint position: (228600000, 33100000)
+[key_placer.py:723]: Placing additional elements for MW10
+[board_modifier.py:97]: Getting MW10 footprint position: (209550000, 38100000)
+[board_modifier.py:74]: Searching for optional D10 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D10 footprint position: (209550000, 33100000)
+[board_modifier.py:97]: Getting D10 footprint position: (209550000, 33100000)
+[key_placer.py:723]: Placing additional elements for MW9
+[board_modifier.py:97]: Getting MW9 footprint position: (190500000, 38100000)
+[board_modifier.py:74]: Searching for optional D9 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D9 footprint position: (190500000, 33100000)
+[board_modifier.py:97]: Getting D9 footprint position: (190500000, 33100000)
+[key_placer.py:723]: Placing additional elements for MW8
+[board_modifier.py:97]: Getting MW8 footprint position: (171450000, 38100000)
+[board_modifier.py:74]: Searching for optional D8 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D8 footprint position: (171450000, 33100000)
+[board_modifier.py:97]: Getting D8 footprint position: (171450000, 33100000)
+[key_placer.py:723]: Placing additional elements for MW7
+[board_modifier.py:97]: Getting MW7 footprint position: (152400000, 38100000)
+[board_modifier.py:74]: Searching for optional D7 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D7 footprint position: (152400000, 33100000)
+[board_modifier.py:97]: Getting D7 footprint position: (152400000, 33100000)
+[key_placer.py:723]: Placing additional elements for MW6
+[board_modifier.py:97]: Getting MW6 footprint position: (133350000, 38100000)
+[board_modifier.py:74]: Searching for optional D6 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D6 footprint position: (133350000, 33100000)
+[board_modifier.py:97]: Getting D6 footprint position: (133350000, 33100000)
+[key_placer.py:723]: Placing additional elements for MW5
+[board_modifier.py:97]: Getting MW5 footprint position: (114300000, 38100000)
+[board_modifier.py:74]: Searching for optional D5 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D5 footprint position: (114300000, 33100000)
+[board_modifier.py:97]: Getting D5 footprint position: (114300000, 33100000)
+[key_placer.py:723]: Placing additional elements for MW4
+[board_modifier.py:97]: Getting MW4 footprint position: (95250000, 38100000)
+[board_modifier.py:74]: Searching for optional D4 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D4 footprint position: (95250000, 33100000)
+[board_modifier.py:97]: Getting D4 footprint position: (95250000, 33100000)
+[key_placer.py:723]: Placing additional elements for MW3
+[board_modifier.py:97]: Getting MW3 footprint position: (76200000, 38100000)
+[board_modifier.py:74]: Searching for optional D3 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D3 footprint position: (76200000, 33100000)
+[board_modifier.py:97]: Getting D3 footprint position: (76200000, 33100000)
+[key_placer.py:723]: Placing additional elements for MW2
+[board_modifier.py:97]: Getting MW2 footprint position: (57150000, 38100000)
+[board_modifier.py:74]: Searching for optional D2 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D2 footprint position: (57150000, 33100000)
+[board_modifier.py:97]: Getting D2 footprint position: (57150000, 33100000)
+[key_placer.py:723]: Placing additional elements for MW1
+[board_modifier.py:97]: Getting MW1 footprint position: (38100000, 38100000)
+[board_modifier.py:74]: Searching for optional D1 footprint in /Users/zhang/Projects/Kicad/zynq7035/MW601_KB/MW601_KB.kicad_pcb
+[board_modifier.py:84]: Setting D1 footprint position: (38100000, 33100000)
+[board_modifier.py:97]: Getting D1 footprint position: (38100000, 33100000)
