@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 7.00024,
+          "height": 5.00126,
+          "width": 9.99998
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -465,6 +465,23 @@
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Matrix_OUT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -472,7 +489,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Matrix_OUT",
+        "pattern": "OUT_P*"
+      },
+      {
+        "netclass": "Matrix_OUT",
+        "pattern": "OUT_N*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -521,7 +547,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -540,13 +566,25 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "位号"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -590,7 +628,7 @@
   "sheets": [
     [
       "646e296e-2dfc-4fd5-a15b-e5e3814d0740",
-      "根目录"
+      "Root"
     ],
     [
       "add8111e-6f39-4a6d-ba25-12188ccc303d",
@@ -603,6 +641,14 @@
     [
       "28a0707a-71d3-459c-8721-e695f46566b2",
       "TMUX"
+    ],
+    [
+      "700c177d-5927-41ff-a8d6-dcfe8e87945e",
+      "Analog"
+    ],
+    [
+      "4f71f1ae-0430-4f4c-b1d1-317b7cbade33",
+      "Power Supply"
     ]
   ],
   "text_variables": {}

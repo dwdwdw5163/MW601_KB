@@ -5,6 +5,141 @@
 	(uuid "55b9e784-b255-4a31-91f6-ea482d7c96bd")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LED:WS2812B-3528"
 			(pin_names
 				(offset 0.254)
@@ -394,6 +529,126 @@
 				)
 			)
 		)
+		(symbol "power:+1V0"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V0"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V0\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V0_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V0_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -610,7 +865,7 @@
 				)
 			)
 		)
-		(symbol "power:VSSA"
+		(symbol "power:VCC"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -627,7 +882,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VSSA"
+			(property "Value" "VCC"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -653,7 +908,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VSSA\""
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -671,7 +926,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "VSSA_0_1"
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 2.54)
@@ -686,18 +953,18 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 			)
-			(symbol "VSSA_1_1"
+			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -718,6 +985,9 @@
 				)
 			)
 		)
+	)
+	(bus_alias "Matrix_OUT"
+		(members "OUT_P[1..64]" "OUT_N[1..64]")
 	)
 	(junction
 		(at 81.28 170.18)
@@ -8385,6 +8655,7 @@
 	)
 	(label "OUT_N31"
 		(at 345.44 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8406,6 +8677,7 @@
 	)
 	(label "OUT_N56"
 		(at 394.97 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8427,6 +8699,7 @@
 	)
 	(label "OUT_N23"
 		(at 345.44 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8437,6 +8710,7 @@
 	)
 	(label "OUT_N42"
 		(at 93.98 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8480,6 +8754,7 @@
 	)
 	(label "OUT_N39"
 		(at 345.44 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8490,6 +8765,7 @@
 	)
 	(label "OUT_N12"
 		(at 194.31 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8500,6 +8776,7 @@
 	)
 	(label "OUT_N43"
 		(at 144.78 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8532,6 +8809,7 @@
 	)
 	(label "OUT_N22"
 		(at 294.64 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8542,6 +8820,7 @@
 	)
 	(label "OUT_N34"
 		(at 93.98 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8552,6 +8831,7 @@
 	)
 	(label "OUT_N16"
 		(at 394.97 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8562,6 +8842,7 @@
 	)
 	(label "OUT_P39"
 		(at 345.44 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8583,6 +8864,7 @@
 	)
 	(label "OUT_P52"
 		(at 194.31 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8604,6 +8886,7 @@
 	)
 	(label "OUT_P47"
 		(at 345.44 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8614,6 +8897,7 @@
 	)
 	(label "OUT_P38"
 		(at 294.64 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8624,6 +8908,7 @@
 	)
 	(label "OUT_P64"
 		(at 394.97 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8645,6 +8930,7 @@
 	)
 	(label "OUT_N18"
 		(at 93.98 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8655,6 +8941,7 @@
 	)
 	(label "OUT_N51"
 		(at 144.78 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8665,6 +8952,7 @@
 	)
 	(label "OUT_N41"
 		(at 44.45 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8675,6 +8963,7 @@
 	)
 	(label "OUT_P42"
 		(at 93.98 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8685,6 +8974,7 @@
 	)
 	(label "OUT_N11"
 		(at 144.78 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8695,6 +8985,7 @@
 	)
 	(label "OUT_N62"
 		(at 294.64 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8705,6 +8996,7 @@
 	)
 	(label "OUT_N14"
 		(at 294.64 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8715,6 +9007,7 @@
 	)
 	(label "OUT_P58"
 		(at 93.98 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8725,6 +9018,7 @@
 	)
 	(label "OUT_P49"
 		(at 44.45 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8735,6 +9029,7 @@
 	)
 	(label "OUT_N55"
 		(at 345.44 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8745,6 +9040,7 @@
 	)
 	(label "OUT_P41"
 		(at 44.45 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8777,6 +9073,7 @@
 	)
 	(label "OUT_P37"
 		(at 245.11 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8809,6 +9106,7 @@
 	)
 	(label "OUT_P46"
 		(at 294.64 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8830,6 +9128,7 @@
 	)
 	(label "OUT_N35"
 		(at 144.78 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8840,6 +9139,7 @@
 	)
 	(label "OUT_P56"
 		(at 394.97 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8850,6 +9150,7 @@
 	)
 	(label "OUT_N63"
 		(at 345.44 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8860,6 +9161,7 @@
 	)
 	(label "OUT_N59"
 		(at 144.78 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8870,6 +9172,7 @@
 	)
 	(label "OUT_N32"
 		(at 394.97 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8880,6 +9183,7 @@
 	)
 	(label "OUT_P60"
 		(at 194.31 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8890,6 +9194,7 @@
 	)
 	(label "OUT_P33"
 		(at 44.45 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8900,6 +9205,7 @@
 	)
 	(label "OUT_N40"
 		(at 394.97 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8910,6 +9216,7 @@
 	)
 	(label "OUT_N46"
 		(at 294.64 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8920,6 +9227,7 @@
 	)
 	(label "OUT_P51"
 		(at 144.78 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8930,6 +9238,7 @@
 	)
 	(label "OUT_N58"
 		(at 93.98 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8951,6 +9260,7 @@
 	)
 	(label "OUT_N25"
 		(at 44.45 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8961,6 +9271,7 @@
 	)
 	(label "OUT_P43"
 		(at 144.78 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8982,6 +9293,7 @@
 	)
 	(label "OUT_P54"
 		(at 294.64 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9003,6 +9315,7 @@
 	)
 	(label "OUT_N57"
 		(at 44.45 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9046,6 +9359,7 @@
 	)
 	(label "OUT_N26"
 		(at 93.98 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9067,6 +9381,7 @@
 	)
 	(label "OUT_N50"
 		(at 93.98 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9077,6 +9392,7 @@
 	)
 	(label "OUT_N52"
 		(at 194.31 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9098,6 +9414,7 @@
 	)
 	(label "OUT_N48"
 		(at 394.97 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9119,6 +9436,7 @@
 	)
 	(label "OUT_N53"
 		(at 245.11 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9129,6 +9447,7 @@
 	)
 	(label "OUT_P57"
 		(at 44.45 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9150,6 +9469,7 @@
 	)
 	(label "OUT_P48"
 		(at 394.97 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9160,6 +9480,7 @@
 	)
 	(label "OUT_N54"
 		(at 294.64 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9170,6 +9491,7 @@
 	)
 	(label "OUT_N27"
 		(at 144.78 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9191,6 +9513,7 @@
 	)
 	(label "OUT_P36"
 		(at 194.31 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9201,6 +9524,7 @@
 	)
 	(label "OUT_N10"
 		(at 93.98 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9222,6 +9546,7 @@
 	)
 	(label "OUT_N61"
 		(at 245.11 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9232,6 +9557,7 @@
 	)
 	(label "OUT_N44"
 		(at 194.31 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9253,6 +9579,7 @@
 	)
 	(label "OUT_P53"
 		(at 245.11 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9274,6 +9601,7 @@
 	)
 	(label "OUT_N19"
 		(at 144.78 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9284,6 +9612,7 @@
 	)
 	(label "OUT_P45"
 		(at 245.11 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9294,6 +9623,7 @@
 	)
 	(label "OUT_N17"
 		(at 44.45 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9304,6 +9634,7 @@
 	)
 	(label "OUT_N45"
 		(at 245.11 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9314,6 +9645,7 @@
 	)
 	(label "OUT_N64"
 		(at 394.97 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9324,6 +9656,7 @@
 	)
 	(label "OUT_P35"
 		(at 144.78 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9334,6 +9667,7 @@
 	)
 	(label "OUT_P40"
 		(at 394.97 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9344,6 +9678,7 @@
 	)
 	(label "OUT_P50"
 		(at 93.98 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9376,6 +9711,7 @@
 	)
 	(label "OUT_P62"
 		(at 294.64 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9397,6 +9733,7 @@
 	)
 	(label "OUT_P34"
 		(at 93.98 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9407,6 +9744,7 @@
 	)
 	(label "OUT_N49"
 		(at 44.45 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9417,6 +9755,7 @@
 	)
 	(label "OUT_N20"
 		(at 194.31 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9427,6 +9766,7 @@
 	)
 	(label "OUT_P61"
 		(at 245.11 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9437,6 +9777,7 @@
 	)
 	(label "OUT_N21"
 		(at 245.11 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9458,6 +9799,7 @@
 	)
 	(label "OUT_N36"
 		(at 194.31 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9468,6 +9810,7 @@
 	)
 	(label "OUT_N60"
 		(at 194.31 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9478,6 +9821,7 @@
 	)
 	(label "OUT_N29"
 		(at 245.11 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9532,6 +9876,7 @@
 	)
 	(label "OUT_N47"
 		(at 345.44 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9542,6 +9887,7 @@
 	)
 	(label "OUT_N38"
 		(at 294.64 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9552,6 +9898,7 @@
 	)
 	(label "OUT_N9"
 		(at 44.45 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9595,6 +9942,7 @@
 	)
 	(label "OUT_P55"
 		(at 345.44 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9605,6 +9953,7 @@
 	)
 	(label "OUT_P63"
 		(at 345.44 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9626,6 +9975,7 @@
 	)
 	(label "OUT_N30"
 		(at 294.64 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9647,6 +9997,7 @@
 	)
 	(label "OUT_P59"
 		(at 144.78 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9657,6 +10008,7 @@
 	)
 	(label "OUT_N13"
 		(at 245.11 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9667,6 +10019,7 @@
 	)
 	(label "OUT_N24"
 		(at 394.97 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9677,6 +10030,7 @@
 	)
 	(label "OUT_N33"
 		(at 44.45 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9687,6 +10041,7 @@
 	)
 	(label "OUT_N15"
 		(at 345.44 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9697,6 +10052,7 @@
 	)
 	(label "OUT_N28"
 		(at 194.31 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9740,6 +10096,7 @@
 	)
 	(label "OUT_N37"
 		(at 245.11 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9761,6 +10118,7 @@
 	)
 	(label "OUT_P44"
 		(at 194.31 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9780,7 +10138,7 @@
 		)
 		(uuid "f84a4406-1fd8-4f31-a390-7201cf4af5b2")
 	)
-	(global_label "LED_SDA"
+	(hierarchical_label "LED_SDA"
 		(shape input)
 		(at 27.94 177.8 180)
 		(fields_autoplaced yes)
@@ -9790,20 +10148,10 @@
 			)
 			(justify right)
 		)
-		(uuid "aa04ba23-afe7-48b0-abad-683fd334dbee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.972 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "63bf4f85-ffe6-4085-ab7e-ea16cdc83196")
 	)
-	(global_label "{OUT_P[1..64], OUT_N[1..64]}"
-		(shape input)
+	(hierarchical_label "{Matrix_OUT}"
+		(shape output)
 		(at 52.07 156.21 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9812,17 +10160,7 @@
 			)
 			(justify right)
 		)
-		(uuid "b1069d5b-99c9-4c0a-bc42-dc4639f4046d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.9631 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "85ed99e2-3a77-4ddd-9e40-7a004cfac296")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9959,7 +10297,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 227.33 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9977,7 +10315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 223.52 20.3199 90)
 			(effects
 				(font
@@ -10004,7 +10342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 227.33 20.32 0)
 			(effects
 				(font
@@ -10234,6 +10572,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 318.77 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0362e180-fc16-4ba2-9ca6-82ac8cc5e639")
+		(property "Reference" "#PWR0186"
+			(at 318.77 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 318.77 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 318.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5e178a3-b58b-44b8-b113-472537ac3738")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 227.33 73.66 270)
 		(unit 1)
@@ -10375,7 +10779,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 377.19 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10393,7 +10797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 373.38 20.3199 90)
 			(effects
 				(font
@@ -10420,7 +10824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 377.19 20.32 0)
 			(effects
 				(font
@@ -10516,7 +10920,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 227.33 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10534,7 +10938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 223.52 135.8899 90)
 			(effects
 				(font
@@ -10561,7 +10965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 227.33 135.89 0)
 			(effects
 				(font
@@ -10583,7 +10987,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 127 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10601,7 +11005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 123.19 53.3399 90)
 			(effects
 				(font
@@ -10628,7 +11032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 127 53.34 0)
 			(effects
 				(font
@@ -10644,6 +11048,72 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 318.77 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "098b93fb-8c43-47c9-9cbd-7915693f3f56")
+		(property "Reference" "#PWR0187"
+			(at 318.77 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.77 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.77 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff25ef02-6c6e-46c9-8c0d-387cdd458b76")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -10711,6 +11181,76 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 336.55 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b2b5834-8f44-4f5d-aa4c-c0310e2613d1")
+		(property "Reference" "C24"
+			(at 339.09 194.3162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uf"
+			(at 339.09 196.8562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 336.55 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 336.55 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06ed10ad-4e72-4808-86a6-913d48381cc2")
+		)
+		(pin "1"
+			(uuid "eaa4ea92-d1d7-4239-a183-5a2ee6efe3b2")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -10934,7 +11474,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 327.66 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10952,7 +11492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 323.85 102.8699 90)
 			(effects
 				(font
@@ -10979,7 +11519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 327.66 102.87 0)
 			(effects
 				(font
@@ -11070,6 +11610,72 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 372.11 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d726c75-fadb-41f4-977b-52e45ba71b14")
+		(property "Reference" "#PWR0199"
+			(at 372.11 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 372.11 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 372.11 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "609d23a8-356f-4d24-b8ca-498bed189fb0")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -11226,7 +11832,73 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+5V")
+		(at 372.11 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e695f52-366d-4829-a089-2f84881ada05")
+		(property "Reference" "#PWR0198"
+			(at 372.11 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 372.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 372.11 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59fdc909-0db0-44ea-a990-86bd5314a72f")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
 		(at 76.2 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11244,7 +11916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 72.39 36.8299 90)
 			(effects
 				(font
@@ -11271,7 +11943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 76.2 36.83 0)
 			(effects
 				(font
@@ -11361,6 +12033,72 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "MW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 309.88 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1208f518-d76a-4bef-9988-58c98e758269")
+		(property "Reference" "#PWR0185"
+			(at 309.88 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 309.88 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 309.88 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1968421-6900-40bc-91dc-699ed182a83c")
+		)
+		(instances
+			(project ""
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -11649,6 +12387,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 336.55 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a04dcd3-9bf9-4957-825d-b13fa565cd52")
+		(property "Reference" "#PWR0190"
+			(at 336.55 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 336.55 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 336.55 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a104355-80aa-4f0f-99f1-6cc8f1dbb460")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B-3528")
 		(at 142.24 203.2 0)
 		(unit 1)
@@ -11718,6 +12522,72 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 336.55 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cd77e42-d713-4968-b415-5de6f2b7a752")
+		(property "Reference" "#PWR0191"
+			(at 336.55 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 336.55 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 336.55 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b85bbe2-f0b7-46ae-ae29-0784a78dcb9b")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -11798,7 +12668,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 276.86 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11816,7 +12686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 273.05 135.8899 90)
 			(effects
 				(font
@@ -11843,7 +12713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 276.86 135.89 0)
 			(effects
 				(font
@@ -11865,7 +12735,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 26.67 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11883,7 +12753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 22.86 102.8699 90)
 			(effects
 				(font
@@ -11910,7 +12780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 26.67 102.87 0)
 			(effects
 				(font
@@ -11932,7 +12802,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 327.66 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11950,7 +12820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 323.85 135.8899 90)
 			(effects
 				(font
@@ -11977,7 +12847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 327.66 135.89 0)
 			(effects
 				(font
@@ -12073,7 +12943,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 377.19 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12091,7 +12961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 373.38 135.8899 90)
 			(effects
 				(font
@@ -12118,7 +12988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 377.19 135.89 0)
 			(effects
 				(font
@@ -12134,6 +13004,73 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 26.67 20.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22b2d7a7-31ee-4997-b6bb-f780142f07c3")
+		(property "Reference" "#PWR01"
+			(at 30.48 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC1V0"
+			(at 22.86 20.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 26.67 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75937cdb-14be-4852-a183-d95bb5a28257")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -12215,7 +13152,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 76.2 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12233,7 +13170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 72.39 86.3599 90)
 			(effects
 				(font
@@ -12260,7 +13197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 76.2 86.36 0)
 			(effects
 				(font
@@ -12573,6 +13510,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 354.33 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c37dd77-64f8-4f41-a7f0-847a8da113da")
+		(property "Reference" "C26"
+			(at 356.87 194.3162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uf"
+			(at 356.87 196.8562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 354.33 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f040fc0-ddc0-409e-8c3e-f449487fe51e")
+		)
+		(pin "1"
+			(uuid "611c56f8-de8c-4f88-baf2-417520220e4e")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Magnetic:MW601")
 		(at 135.89 38.1 0)
 		(unit 1)
@@ -12647,7 +13654,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 227.33 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12665,7 +13672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 223.52 102.8699 90)
 			(effects
 				(font
@@ -12692,7 +13699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 227.33 102.87 0)
 			(effects
 				(font
@@ -12788,7 +13795,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 176.53 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12806,7 +13813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 172.72 135.8899 90)
 			(effects
 				(font
@@ -12833,7 +13840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 176.53 135.89 0)
 			(effects
 				(font
@@ -12996,7 +14003,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 377.19 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13014,7 +14021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 373.38 69.8499 90)
 			(effects
 				(font
@@ -13041,7 +14048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 377.19 69.85 0)
 			(effects
 				(font
@@ -13063,7 +14070,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 176.53 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13081,7 +14088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 172.72 102.8699 90)
 			(effects
 				(font
@@ -13108,7 +14115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 176.53 102.87 0)
 			(effects
 				(font
@@ -13124,6 +14131,138 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 363.22 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34d95675-e4a6-4d58-ad53-7fc4b2fc317e")
+		(property "Reference" "#PWR0196"
+			(at 363.22 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 363.22 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 363.22 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a187261-3891-4a51-bbb6-e1cb64766e9b")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 354.33 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3599dad2-ef9c-41c3-a937-f02990feeb5c")
+		(property "Reference" "#PWR0195"
+			(at 354.33 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 354.33 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 354.33 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74203ac9-abd3-44ed-b94f-55e31cd09f20")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -13642,7 +14781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 76.2 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13660,7 +14799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 72.39 53.3399 90)
 			(effects
 				(font
@@ -13687,7 +14826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 76.2 53.34 0)
 			(effects
 				(font
@@ -13709,7 +14848,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 327.66 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13727,7 +14866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 323.85 53.3399 90)
 			(effects
 				(font
@@ -13754,7 +14893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 327.66 53.34 0)
 			(effects
 				(font
@@ -13851,7 +14990,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 327.66 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13869,7 +15008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 323.85 36.8299 90)
 			(effects
 				(font
@@ -13896,7 +15035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 327.66 36.83 0)
 			(effects
 				(font
@@ -14134,7 +15273,77 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "Device:C_Small")
+		(at 345.44 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "477608dd-52ad-45a5-becd-4c0abf8230b9")
+		(property "Reference" "C25"
+			(at 347.98 194.3162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uf"
+			(at 347.98 196.8562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 345.44 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16fdbbb7-5f2b-43b1-92da-57d919b4c3c8")
+		)
+		(pin "1"
+			(uuid "fcd8eb9c-7d79-402c-9d75-2f1c305e7c54")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
 		(at 127 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14152,7 +15361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 123.19 20.3199 90)
 			(effects
 				(font
@@ -14179,7 +15388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 127 20.32 0)
 			(effects
 				(font
@@ -14201,7 +15410,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 327.66 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14219,7 +15428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 323.85 20.3199 90)
 			(effects
 				(font
@@ -14246,7 +15455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 327.66 20.32 0)
 			(effects
 				(font
@@ -14819,74 +16028,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
-		(at 26.67 20.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cc9e1c9-6b70-4bda-aa19-26f11ea71c94")
-		(property "Reference" "#PWR01"
-			(at 30.48 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 22.86 20.3199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 26.67 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3499a8c0-ee2f-4575-bb13-26c2827d8a4b")
-		)
-		(instances
-			(project ""
-				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 227.33 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14904,7 +16046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 223.52 53.3399 90)
 			(effects
 				(font
@@ -14931,7 +16073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 227.33 53.34 0)
 			(effects
 				(font
@@ -15095,7 +16237,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 127 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15113,7 +16255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 123.19 36.8299 90)
 			(effects
 				(font
@@ -15140,7 +16282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 127 36.83 0)
 			(effects
 				(font
@@ -15378,7 +16520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 26.67 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15396,7 +16538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 22.86 69.8499 90)
 			(effects
 				(font
@@ -15423,7 +16565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 26.67 69.85 0)
 			(effects
 				(font
@@ -15520,7 +16662,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 276.86 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15538,7 +16680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 273.05 53.3399 90)
 			(effects
 				(font
@@ -15565,7 +16707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 276.86 53.34 0)
 			(effects
 				(font
@@ -15736,7 +16878,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 276.86 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15754,7 +16896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 273.05 20.3199 90)
 			(effects
 				(font
@@ -15781,7 +16923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 276.86 20.32 0)
 			(effects
 				(font
@@ -16600,7 +17742,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 327.66 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16618,7 +17760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 323.85 86.3599 90)
 			(effects
 				(font
@@ -16645,7 +17787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 327.66 86.36 0)
 			(effects
 				(font
@@ -17383,7 +18525,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 377.19 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17401,7 +18543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 373.38 119.3799 90)
 			(effects
 				(font
@@ -17428,7 +18570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 377.19 119.38 0)
 			(effects
 				(font
@@ -17517,7 +18659,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 76.2 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17535,7 +18677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 72.39 69.8499 90)
 			(effects
 				(font
@@ -17562,7 +18704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 76.2 69.85 0)
 			(effects
 				(font
@@ -17645,6 +18787,72 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 345.44 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6943c724-7429-4002-ae15-a785eb3d1644")
+		(property "Reference" "#PWR0192"
+			(at 345.44 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 345.44 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 345.44 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2beba77c-e961-4f94-9a41-e71f41b7d83b")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -17792,7 +19000,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 276.86 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17810,7 +19018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 273.05 119.3799 90)
 			(effects
 				(font
@@ -17837,7 +19045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 276.86 119.38 0)
 			(effects
 				(font
@@ -17859,7 +19067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 26.67 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17877,7 +19085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 22.86 119.3799 90)
 			(effects
 				(font
@@ -17904,7 +19112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 26.67 119.38 0)
 			(effects
 				(font
@@ -17926,7 +19134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 327.66 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17944,7 +19152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 323.85 69.8499 90)
 			(effects
 				(font
@@ -17971,7 +19179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 327.66 69.85 0)
 			(effects
 				(font
@@ -17993,17 +19201,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 281.94 167.64 0)
+		(lib_id "power:GND")
+		(at 327.66 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7152e493-43d2-4ede-b50e-b0ee00a13ab1")
-		(property "Reference" "#PWR0130"
-			(at 281.94 171.45 0)
+		(uuid "6f8147c0-4a2f-4440-b788-596d504e0678")
+		(property "Reference" "#PWR0189"
+			(at 327.66 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18011,8 +19219,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_LED"
-			(at 281.94 162.56 0)
+		(property "Value" "GND"
+			(at 327.66 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18020,7 +19228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 167.64 0)
+			(at 327.66 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18029,7 +19237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 167.64 0)
+			(at 327.66 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18037,8 +19245,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 281.94 167.64 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 327.66 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18047,12 +19255,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "e75e86ed-8c8e-417d-aeea-9d783d32667f")
+			(uuid "0338464c-bfec-4ecc-9389-27338fb75027")
 		)
 		(instances
-			(project ""
+			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
-					(reference "#PWR0130")
+					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 309.88 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71039c87-67c2-46d9-965c-4daa8864c9e7")
+		(property "Reference" "#PWR0184"
+			(at 309.88 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 309.88 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 309.88 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aae5e1f9-7bbb-4f4f-bdb1-343e4af771fc")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -19289,6 +20563,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 363.22 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "823ebe1f-0a1b-4434-861e-5330d83a2c9d")
+		(property "Reference" "#PWR0197"
+			(at 363.22 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 363.22 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 363.22 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90fada5e-241e-4078-8937-33fca52cee16")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 377.19 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19422,7 +20762,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 127 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19440,7 +20780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 123.19 69.8499 90)
 			(effects
 				(font
@@ -19467,7 +20807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 127 69.85 0)
 			(effects
 				(font
@@ -19489,7 +20829,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 76.2 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19507,7 +20847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 72.39 119.3799 90)
 			(effects
 				(font
@@ -19534,7 +20874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 76.2 119.38 0)
 			(effects
 				(font
@@ -19631,7 +20971,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 377.19 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19649,7 +20989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 373.38 53.3399 90)
 			(effects
 				(font
@@ -19676,7 +21016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 377.19 53.34 0)
 			(effects
 				(font
@@ -19765,7 +21105,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 276.86 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19783,7 +21123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 273.05 36.8299 90)
 			(effects
 				(font
@@ -19810,7 +21150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 276.86 36.83 0)
 			(effects
 				(font
@@ -19832,7 +21172,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 127 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19850,7 +21190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 123.19 102.8699 90)
 			(effects
 				(font
@@ -19877,7 +21217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 127 102.87 0)
 			(effects
 				(font
@@ -20197,7 +21537,77 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "Device:C_Small")
+		(at 372.11 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e4610fe-ac9f-412b-82b8-279e8e5ca2ac")
+		(property "Reference" "C28"
+			(at 374.65 194.3162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uf"
+			(at 374.65 196.8562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 372.11 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e0cfc88-4863-4540-9795-beb33490208a")
+		)
+		(pin "1"
+			(uuid "b00aa0b4-36c7-4543-ad9a-49acf42d65cd")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
 		(at 176.53 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20215,7 +21625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 172.72 20.3199 90)
 			(effects
 				(font
@@ -20242,7 +21652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 176.53 20.32 0)
 			(effects
 				(font
@@ -20332,6 +21742,76 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "MW64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 327.66 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90396a3c-89a5-4977-bc67-d44ef9e8e4d4")
+		(property "Reference" "C23"
+			(at 330.2 194.3162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uf"
+			(at 330.2 196.8562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 327.66 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 327.66 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84bac32f-1540-4037-bc8f-84350fb0a659")
+		)
+		(pin "1"
+			(uuid "c424c63f-dbea-40ab-80c3-268263ef1718")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -20548,6 +22028,72 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "MW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 281.94 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93b827a1-00a9-4603-998d-ba86c97f9c36")
+		(property "Reference" "#PWR0130"
+			(at 281.94 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 281.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 281.94 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4176b1ab-f570-45b2-ad2b-4bbfb3ae1e7f")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -20971,7 +22517,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 227.33 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20989,7 +22535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 223.52 119.3799 90)
 			(effects
 				(font
@@ -21016,7 +22562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 227.33 119.38 0)
 			(effects
 				(font
@@ -21187,7 +22733,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 26.67 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21205,7 +22751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 22.86 86.3599 90)
 			(effects
 				(font
@@ -21232,7 +22778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 26.67 86.36 0)
 			(effects
 				(font
@@ -21323,73 +22869,6 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSSA")
-		(at 26.67 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0b90dd1-f863-4fc0-9cb4-76023611b5a3")
-		(property "Reference" "#PWR017"
-			(at 30.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSSA"
-			(at 22.86 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
-			(at 26.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f98a8221-e245-4789-b8d2-7d4cbbac4e1e")
-		)
-		(instances
-			(project "MW601_KB"
-				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -21545,7 +23024,144 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "Device:C_Small")
+		(at 363.22 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2ae95b5-5983-4a87-94f7-c9b6d308684c")
+		(property "Reference" "C27"
+			(at 365.76 194.3162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uf"
+			(at 365.76 196.8562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 363.22 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 363.22 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c6d0873-29e6-4feb-8870-9703ea5cea38")
+		)
+		(pin "1"
+			(uuid "9068cb40-8612-4817-bfc9-81378310509f")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 26.67 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a65dadde-7d3d-4713-8367-45dc6deaf885")
+		(property "Reference" "#PWR017"
+			(at 30.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC1V0"
+			(at 22.86 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 26.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f1c3c39-0690-4a5d-ae8e-a0b784ca4502")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
 		(at 76.2 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21563,7 +23179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 72.39 20.3199 90)
 			(effects
 				(font
@@ -21590,7 +23206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 76.2 20.32 0)
 			(effects
 				(font
@@ -21612,7 +23228,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 327.66 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21630,7 +23246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 323.85 119.3799 90)
 			(effects
 				(font
@@ -21657,7 +23273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 327.66 119.38 0)
 			(effects
 				(font
@@ -22469,7 +24085,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 26.67 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22487,7 +24103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 22.86 135.8899 90)
 			(effects
 				(font
@@ -22514,7 +24130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 26.67 135.89 0)
 			(effects
 				(font
@@ -22603,7 +24219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 227.33 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22621,7 +24237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 223.52 36.8299 90)
 			(effects
 				(font
@@ -22648,7 +24264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 227.33 36.83 0)
 			(effects
 				(font
@@ -22737,6 +24353,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 309.88 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5dc5119-3b81-475d-a09f-c37d364274ee")
+		(property "Reference" "C21"
+			(at 312.42 194.3162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uf"
+			(at 312.42 196.8562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 309.88 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d522dfc-40cd-4705-80c6-a06edb7b307d")
+		)
+		(pin "1"
+			(uuid "d68de957-322e-4024-8418-e2dc0ef5430f")
+		)
+		(instances
+			(project ""
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 327.66 73.66 270)
 		(unit 1)
@@ -22804,7 +24490,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 176.53 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22822,7 +24508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 172.72 36.8299 90)
 			(effects
 				(font
@@ -22849,7 +24535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 176.53 36.83 0)
 			(effects
 				(font
@@ -23369,7 +25055,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 377.19 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23387,7 +25073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 373.38 102.8699 90)
 			(effects
 				(font
@@ -23414,7 +25100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 377.19 102.87 0)
 			(effects
 				(font
@@ -23503,7 +25189,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 127 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23521,7 +25207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 123.19 135.8899 90)
 			(effects
 				(font
@@ -23548,7 +25234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 127 135.89 0)
 			(effects
 				(font
@@ -23570,7 +25256,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 176.53 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23588,7 +25274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 172.72 119.3799 90)
 			(effects
 				(font
@@ -23615,7 +25301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 176.53 119.38 0)
 			(effects
 				(font
@@ -23861,7 +25547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 227.33 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23879,7 +25565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 223.52 86.3599 90)
 			(effects
 				(font
@@ -23906,7 +25592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 227.33 86.36 0)
 			(effects
 				(font
@@ -24002,7 +25688,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 176.53 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24020,7 +25706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 172.72 69.8499 90)
 			(effects
 				(font
@@ -24047,7 +25733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 176.53 69.85 0)
 			(effects
 				(font
@@ -24138,6 +25824,76 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 318.77 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cafc4b01-405d-42bc-baeb-be6ebc46b4d8")
+		(property "Reference" "C22"
+			(at 321.31 194.3162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uf"
+			(at 321.31 196.8562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 318.77 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 318.77 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8b12cde-6450-46bd-b164-81c9bc41ea0d")
+		)
+		(pin "1"
+			(uuid "bf9f98ba-52bf-4e3e-a9c2-a17f74ebb593")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -24437,6 +26193,72 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 354.33 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce6b6922-6694-4284-844b-822c49d25d11")
+		(property "Reference" "#PWR0194"
+			(at 354.33 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 354.33 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 354.33 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95ffa9d1-ce9d-4757-9733-5c7f145c6024")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -25166,7 +26988,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 276.86 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25184,7 +27006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 273.05 102.8699 90)
 			(effects
 				(font
@@ -25211,7 +27033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 276.86 102.87 0)
 			(effects
 				(font
@@ -25300,7 +27122,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 26.67 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25318,7 +27140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 22.86 53.3399 90)
 			(effects
 				(font
@@ -25345,7 +27167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 26.67 53.34 0)
 			(effects
 				(font
@@ -25435,6 +27257,72 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "MW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 345.44 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9596b30-4a78-4216-9e99-09acdd2369fe")
+		(property "Reference" "#PWR0193"
+			(at 345.44 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 345.44 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 345.44 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "054f4713-3b48-4fd7-b44b-f0e3f58796d0")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -25740,7 +27628,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 76.2 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25758,7 +27646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 72.39 102.8699 90)
 			(effects
 				(font
@@ -25785,7 +27673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 76.2 102.87 0)
 			(effects
 				(font
@@ -26173,7 +28061,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 377.19 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26191,7 +28079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 373.38 86.3599 90)
 			(effects
 				(font
@@ -26218,7 +28106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 377.19 86.36 0)
 			(effects
 				(font
@@ -26240,7 +28128,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 76.2 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26258,7 +28146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 72.39 135.8899 90)
 			(effects
 				(font
@@ -26285,7 +28173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 76.2 135.89 0)
 			(effects
 				(font
@@ -26375,6 +28263,72 @@
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
 					(reference "MW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 327.66 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9fd6bcc-142c-42de-885d-074da60c1a9a")
+		(property "Reference" "#PWR0188"
+			(at 327.66 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 327.66 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 327.66 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04c526eb-778f-4517-ae6a-b19e9cb87ff5")
+		)
+		(instances
+			(project "MW601_KB"
+				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/add8111e-6f39-4a6d-ba25-12188ccc303d"
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -26530,7 +28484,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 276.86 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26548,7 +28502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 273.05 69.8499 90)
 			(effects
 				(font
@@ -26575,7 +28529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 276.86 69.85 0)
 			(effects
 				(font
@@ -26597,7 +28551,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 276.86 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26615,7 +28569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 273.05 86.3599 90)
 			(effects
 				(font
@@ -26642,7 +28596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 276.86 86.36 0)
 			(effects
 				(font
@@ -26739,7 +28693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 377.19 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26757,7 +28711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 373.38 36.8299 90)
 			(effects
 				(font
@@ -26784,7 +28738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 377.19 36.83 0)
 			(effects
 				(font
@@ -26873,7 +28827,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 176.53 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26891,7 +28845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 172.72 86.3599 90)
 			(effects
 				(font
@@ -26918,7 +28872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 176.53 86.36 0)
 			(effects
 				(font
@@ -27088,7 +29042,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 127 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27106,7 +29060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 123.19 86.3599 90)
 			(effects
 				(font
@@ -27133,7 +29087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 127 86.36 0)
 			(effects
 				(font
@@ -27222,7 +29176,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 127 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27240,7 +29194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 123.19 119.3799 90)
 			(effects
 				(font
@@ -27267,7 +29221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 127 119.38 0)
 			(effects
 				(font
@@ -27437,7 +29391,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 227.33 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27455,7 +29409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 223.52 69.8499 90)
 			(effects
 				(font
@@ -27482,7 +29436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 227.33 69.85 0)
 			(effects
 				(font
@@ -27802,7 +29756,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSSA")
+		(lib_id "power:+1V0")
 		(at 176.53 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27820,7 +29774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSSA"
+		(property "Value" "VCC1V0"
 			(at 172.72 53.3399 90)
 			(effects
 				(font
@@ -27847,7 +29801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSSA\""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 176.53 53.34 0)
 			(effects
 				(font
