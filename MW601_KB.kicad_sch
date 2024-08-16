@@ -712,7 +712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "hole:PKRHSL"
 			(at 274.32 63.5 0)
 			(effects
 				(font
@@ -777,7 +777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "hole:PKRHSL"
 			(at 274.32 53.34 0)
 			(effects
 				(font
@@ -844,7 +844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
 			(at 231.14 24.13 0)
 			(effects
 				(font
@@ -890,7 +890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13c5b3ca-49bc-4bbe-8034-dd3bdf05ece8")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR01"
 			(at 276.86 83.82 0)
 			(effects
 				(font
@@ -940,7 +940,7 @@
 		(instances
 			(project ""
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740"
-					(reference "#PWR0135")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -972,7 +972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "hole:PKRH"
 			(at 274.32 73.66 0)
 			(effects
 				(font
@@ -1039,7 +1039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_6.25u"
 			(at 231.14 34.29 0)
 			(effects
 				(font
@@ -1101,7 +1101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "hole:PKRH"
 			(at 274.32 33.02 0)
 			(effects
 				(font
@@ -1166,7 +1166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "hole:PKRH"
 			(at 274.32 43.18 0)
 			(effects
 				(font
@@ -1233,7 +1233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
 			(at 231.14 29.21 0)
 			(effects
 				(font
@@ -1297,7 +1297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
 			(at 231.14 19.05 0)
 			(effects
 				(font
@@ -1359,7 +1359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "hole:PKRHC"
 			(at 274.32 22.86 0)
 			(effects
 				(font

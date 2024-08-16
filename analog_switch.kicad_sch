@@ -5853,6 +5853,7 @@
 	)
 	(label "OUT_P23"
 		(at 107.95 152.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5874,6 +5875,7 @@
 	)
 	(label "OUT_P16"
 		(at 107.95 50.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5884,6 +5886,7 @@
 	)
 	(label "OUT_P40"
 		(at 156.21 160.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5894,6 +5897,7 @@
 	)
 	(label "OUT_P29"
 		(at 107.95 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5904,6 +5908,7 @@
 	)
 	(label "OUT_P55"
 		(at 209.55 162.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5914,6 +5919,7 @@
 	)
 	(label "OUT_P53"
 		(at 156.21 165.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5935,6 +5941,7 @@
 	)
 	(label "OUT_P18"
 		(at 156.21 50.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5945,6 +5952,7 @@
 	)
 	(label "OUT_P42"
 		(at 107.95 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5966,6 +5974,7 @@
 	)
 	(label "OUT_P64"
 		(at 209.55 165.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5987,6 +5996,7 @@
 	)
 	(label "OUT_P12"
 		(at 156.21 149.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6030,6 +6040,7 @@
 	)
 	(label "OUT_P33"
 		(at 209.55 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6062,6 +6073,7 @@
 	)
 	(label "OUT_P21"
 		(at 257.81 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6083,6 +6095,7 @@
 	)
 	(label "OUT_P8"
 		(at 257.81 45.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6126,6 +6139,7 @@
 	)
 	(label "OUT_P19"
 		(at 209.55 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6147,6 +6161,7 @@
 	)
 	(label "OUT_P31"
 		(at 156.21 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6157,6 +6172,7 @@
 	)
 	(label "OUT_P51"
 		(at 107.95 165.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6167,6 +6183,7 @@
 	)
 	(label "OUT_P52"
 		(at 156.21 162.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6188,6 +6205,7 @@
 	)
 	(label "OUT_P43"
 		(at 107.95 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6198,6 +6216,7 @@
 	)
 	(label "OUT_P3"
 		(at 156.21 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6219,6 +6238,7 @@
 	)
 	(label "OUT_P13"
 		(at 209.55 147.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6240,6 +6260,7 @@
 	)
 	(label "OUT_P58"
 		(at 257.81 152.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6272,6 +6293,7 @@
 	)
 	(label "OUT_P34"
 		(at 209.55 55.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6337,6 +6359,7 @@
 	)
 	(label "OUT_P22"
 		(at 257.81 50.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6358,6 +6381,7 @@
 	)
 	(label "OUT_P61"
 		(at 257.81 160.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6379,6 +6403,7 @@
 	)
 	(label "OUT_P2"
 		(at 107.95 45.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6389,6 +6414,7 @@
 	)
 	(label "OUT_P6"
 		(at 209.55 45.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6410,6 +6436,7 @@
 	)
 	(label "OUT_P9"
 		(at 107.95 147.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6420,6 +6447,7 @@
 	)
 	(label "OUT_P25"
 		(at 156.21 152.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6430,6 +6458,7 @@
 	)
 	(label "OUT_P45"
 		(at 156.21 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6484,6 +6513,7 @@
 	)
 	(label "OUT_P56"
 		(at 257.81 147.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6494,6 +6524,7 @@
 	)
 	(label "OUT_P48"
 		(at 257.81 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6504,6 +6535,7 @@
 	)
 	(label "OUT_P38"
 		(at 107.95 160.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6525,6 +6557,7 @@
 	)
 	(label "OUT_P54"
 		(at 209.55 160.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6568,6 +6601,7 @@
 	)
 	(label "OUT_P10"
 		(at 107.95 149.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6633,6 +6667,7 @@
 	)
 	(label "OUT_P26"
 		(at 156.21 154.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6654,6 +6689,7 @@
 	)
 	(label "OUT_P35"
 		(at 257.81 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6664,6 +6700,7 @@
 	)
 	(label "OUT_P15"
 		(at 107.95 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6674,6 +6711,7 @@
 	)
 	(label "OUT_P11"
 		(at 156.21 147.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6684,6 +6722,7 @@
 	)
 	(label "OUT_P4"
 		(at 156.21 45.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6705,6 +6744,7 @@
 	)
 	(label "OUT_P41"
 		(at 209.55 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6715,6 +6755,7 @@
 	)
 	(label "OUT_P60"
 		(at 257.81 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6725,6 +6766,7 @@
 	)
 	(label "OUT_P46"
 		(at 209.55 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6735,6 +6777,7 @@
 	)
 	(label "OUT_P57"
 		(at 257.81 149.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6756,6 +6799,7 @@
 	)
 	(label "OUT_P63"
 		(at 257.81 165.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6766,6 +6810,7 @@
 	)
 	(label "OUT_P7"
 		(at 257.81 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6776,6 +6821,7 @@
 	)
 	(label "OUT_P36"
 		(at 257.81 55.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6786,6 +6832,7 @@
 	)
 	(label "OUT_P20"
 		(at 209.55 50.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6840,6 +6887,7 @@
 	)
 	(label "OUT_P30"
 		(at 107.95 55.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6850,6 +6898,7 @@
 	)
 	(label "OUT_P59"
 		(at 257.81 154.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6860,6 +6909,7 @@
 	)
 	(label "OUT_P44"
 		(at 156.21 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6881,6 +6931,7 @@
 	)
 	(label "OUT_P5"
 		(at 209.55 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6935,6 +6986,7 @@
 	)
 	(label "OUT_P24"
 		(at 107.95 154.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6967,6 +7019,7 @@
 	)
 	(label "OUT_P28"
 		(at 209.55 154.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6999,6 +7052,7 @@
 	)
 	(label "OUT_P1"
 		(at 107.95 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7009,6 +7063,7 @@
 	)
 	(label "OUT_P47"
 		(at 209.55 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7030,6 +7085,7 @@
 	)
 	(label "OUT_P37"
 		(at 107.95 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7040,6 +7096,7 @@
 	)
 	(label "OUT_P39"
 		(at 156.21 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7050,6 +7107,7 @@
 	)
 	(label "OUT_P14"
 		(at 209.55 149.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7071,6 +7129,7 @@
 	)
 	(label "OUT_P32"
 		(at 156.21 55.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7114,6 +7173,7 @@
 	)
 	(label "OUT_P62"
 		(at 257.81 162.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7124,6 +7184,7 @@
 	)
 	(label "OUT_P27"
 		(at 209.55 152.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7134,6 +7195,7 @@
 	)
 	(label "OUT_P50"
 		(at 107.95 162.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7144,6 +7206,7 @@
 	)
 	(label "OUT_P49"
 		(at 257.81 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7165,6 +7228,7 @@
 	)
 	(label "OUT_P17"
 		(at 156.21 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7198,6 +7262,7 @@
 	(hierarchical_label "EN"
 		(shape input)
 		(at 107.95 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7792,7 +7857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "003d2ab9-b6e0-4965-9fa8-c18d7ed6f8a4")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 125.3841 20.32 0)
 			(effects
 				(font
@@ -7939,7 +8004,7 @@
 		(instances
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/28a0707a-71d3-459c-8721-e695f46566b2"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7955,7 +8020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25e1e6ba-280b-4a94-a347-645c20429db0")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 173.6441 20.32 0)
 			(effects
 				(font
@@ -8102,7 +8167,7 @@
 		(instances
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/28a0707a-71d3-459c-8721-e695f46566b2"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8118,7 +8183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30609a91-95c6-4399-af49-80a7e81da45c")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 173.6441 124.46 0)
 			(effects
 				(font
@@ -8265,7 +8330,7 @@
 		(instances
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/28a0707a-71d3-459c-8721-e695f46566b2"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -8281,7 +8346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4282632f-6f23-4c1e-9617-c7c17550d2e1")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 275.2441 124.46 0)
 			(effects
 				(font
@@ -8428,7 +8493,7 @@
 		(instances
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/28a0707a-71d3-459c-8721-e695f46566b2"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -8444,7 +8509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44039c25-39c1-408d-9f32-fdd12f3c57c1")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0185"
 			(at 299.72 26.67 0)
 			(effects
 				(font
@@ -8494,7 +8559,7 @@
 		(instances
 			(project ""
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/28a0707a-71d3-459c-8721-e695f46566b2"
-					(reference "#PWR0133")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -8510,7 +8575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7189b0cd-c0a2-4e6f-8203-c1aeeb62be91")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 275.2441 20.32 0)
 			(effects
 				(font
@@ -8657,7 +8722,7 @@
 		(instances
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/28a0707a-71d3-459c-8721-e695f46566b2"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8673,7 +8738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99bb4cfe-319e-4f18-8ae9-0cedc2198dc3")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0186"
 			(at 299.72 95.25 0)
 			(effects
 				(font
@@ -8723,7 +8788,7 @@
 		(instances
 			(project ""
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/28a0707a-71d3-459c-8721-e695f46566b2"
-					(reference "#PWR0131")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -8739,7 +8804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2c8b023-dd5b-4657-8bd4-0897d7112df8")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0188"
 			(at 299.72 199.39 0)
 			(effects
 				(font
@@ -8789,7 +8854,7 @@
 		(instances
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/28a0707a-71d3-459c-8721-e695f46566b2"
-					(reference "#PWR0132")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -8805,7 +8870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7e1a881-9d7a-462e-9453-d294eae19c24")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0187"
 			(at 299.72 130.81 0)
 			(effects
 				(font
@@ -8855,7 +8920,7 @@
 		(instances
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/28a0707a-71d3-459c-8721-e695f46566b2"
-					(reference "#PWR0134")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -8871,7 +8936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c30f408a-e3ef-42bf-9457-a29155d8536a")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 226.9841 124.46 0)
 			(effects
 				(font
@@ -9018,7 +9083,7 @@
 		(instances
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/28a0707a-71d3-459c-8721-e695f46566b2"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -9034,7 +9099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daf97dbf-e8c0-4878-8122-d5bfc26f3147")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 226.9841 20.32 0)
 			(effects
 				(font
@@ -9181,7 +9246,7 @@
 		(instances
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/28a0707a-71d3-459c-8721-e695f46566b2"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9197,7 +9262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6970fec-b852-4a93-b161-4a529ba27e47")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 125.3841 124.46 0)
 			(effects
 				(font
@@ -9344,7 +9409,7 @@
 		(instances
 			(project "MW601_KB"
 				(path "/646e296e-2dfc-4fd5-a15b-e5e3814d0740/28a0707a-71d3-459c-8721-e695f46566b2"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
