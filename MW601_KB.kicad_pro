@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 7.00024,
-          "height": 5.00126,
-          "width": 9.99998
+          "height": 4.8,
+          "width": 9.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -66,7 +66,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -106,7 +106,7 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -123,7 +123,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -178,7 +178,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -212,7 +213,7 @@
           "drill": 0.0
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -451,24 +452,24 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.1494,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1494,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
@@ -477,6 +478,23 @@
         "microvia_drill": 0.1,
         "name": "Matrix_OUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.1494,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1494,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR",
+        "pcb_color": "rgb(255, 107, 23)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
@@ -492,11 +510,31 @@
     "netclass_patterns": [
       {
         "netclass": "Matrix_OUT",
-        "pattern": "OUT_P*"
+        "pattern": "/Key Layout/OUT_P*"
       },
       {
         "netclass": "Matrix_OUT",
-        "pattern": "OUT_N*"
+        "pattern": "/Key Layout/OUT_N*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VCC1V0"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VDDA"
       }
     ]
   },
@@ -628,7 +666,7 @@
   "sheets": [
     [
       "646e296e-2dfc-4fd5-a15b-e5e3814d0740",
-      "根目录"
+      "Root"
     ],
     [
       "add8111e-6f39-4a6d-ba25-12188ccc303d",
